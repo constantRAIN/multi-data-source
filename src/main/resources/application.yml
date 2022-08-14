@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    write:
+      url: jdbc:mysql://192.168.31.155:3306/test_1?characterEncoding=UTF-8&useSSL=false
+      username: root
+      password: root
+    read:
+      url: jdbc:mysql://192.168.31.155:3306/test_2?characterEncoding=UTF-8&useSSL=false
+      username: root
+      password: root
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true

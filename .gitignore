@@ -1,0 +1,17 @@
+.DS_Store
+target/
+output
+*/target/*
+log
+logs/
+*.iml
+.arcconfig
+.idea
+.settings
+.classpath
+.project
+pom.xml.versionsBackup
+mvnw
+mvnw.cmd
+HELP.md
+.mvn
